@@ -30,7 +30,7 @@ const Menu = () => {
       <Hamburger
         duration={0.3}
         size={25}
-        color='maroon'
+        color='black'
         easing='ease-in'
         rounded
         onToggle={(toggle) => handleMenu(toggle)}

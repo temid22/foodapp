@@ -9,7 +9,7 @@ const Navbar = () => {
   const user = false;
 
   return (
-    <section className='h-12 text-red-500 bg-white p-4 flex items-center justify-between border-b-2 border-b-green-600 font-medium uppercase md:h-14'>
+    <section className='h-12 text-red-500 bg-white p-4 flex items-center justify-between border-b-2 border-b-green-600 font-medium uppercase md:h-14 lg:px-20 xl:px-40'>
       {/* Left Links  */}
       <div className='hidden md:flex gap-4 flex-1 '>
         <Link className='hover:underline' href='/'>
@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {/* Right Links  */}
       <div className='hidden md:flex gap-4 items-center flex-1 justify-end '>
-        <div className='md:absolute top-3 right-2 lg:static flex items-center gap-2 border-2 cursor-pointer px-1 rounded-md'>
+        <div className='md:absolute top-3 right-2 xl:static flex items-center gap-2 border-2 cursor-pointer px-1 rounded-md'>
           <Image
             className='bg-green-600 rounded'
             src='/phone.png'
@@ -45,7 +45,7 @@ const Navbar = () => {
             width={20}
             height={20}
           />
-          <span className='md:text-white lg:text-black'>123 456 7890</span>
+          <span className='md:text-white xl:text-black'>123 456 7890</span>
         </div>
         {!user ? (
           <>

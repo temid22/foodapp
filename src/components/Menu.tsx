@@ -37,7 +37,7 @@ const Menu = () => {
       />
 
       {isOpen && (
-        <div className='bg-yellow-300 font-semibold text-gray-600 absolute left-0 h-[calc(60vh-6rem)] w-full z-10 gap-5 flex flex-col justify-center items-center '>
+        <div className='bg-yellow-300 font-semibold text-neutral-900 absolute left-0 h-[calc(60vh-6rem)] w-full z-10 gap-5 flex flex-col justify-center items-center '>
           {links.map((item) => (
             <Link
               href={item.url}

@@ -9,7 +9,7 @@ const Navbar = () => {
   const user = false;
 
   return (
-    <section className='h-12 text-red-500 bg-white p-4 flex items-center justify-between border-b-2 border-b-green-600 font-medium uppercase md:h-14 lg:px-20 xl:px-40'>
+    <section className='h-12 text-neutral-900 bg-white p-4 flex items-center justify-between border-b-2 border-b-green-600 font-medium uppercase md:h-14 lg:px-20 xl:px-40'>
       {/* Left Links  */}
       <div className='hidden md:flex gap-4 flex-1 '>
         <Link className='hover:underline' href='/'>

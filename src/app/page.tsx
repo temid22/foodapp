@@ -4,7 +4,7 @@ import Slider from '@/components/Slider';
 
 const Home = () => {
   return (
-    <main>
+    <main className='overflow-hidden'>
       <Slider />
       <Featured />
       <Offer />
